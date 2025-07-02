@@ -1,0 +1,44 @@
+/* li {
+  background-color: pink;
+} */
+
+.styled-li {
+  background-color: pink;
+}
+
+/* #styled-li {
+  background-color: pink;
+} */
+
+nav ul li {
+  display: inline-block;
+}
+
+nav > li {
+  display: inline-block;
+}
+nav li {
+  display: inline-block;
+}
+
+h1,
+h2,
+h3 {
+  color: aqua;
+}
+
+input[type="text"] {
+  border: 1px solid lightcoral;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+li:nth-child(odd) {
+  background-color: red;
+}
+
+li:nth-child(even) {
+  background-color: yellow;
+}
