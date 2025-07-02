@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Arita-dotum-Medium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 전체 페이지 기본 */
+body {
+  background-color: #f9f9f9;
+  color: #333333;
+  font-size: 16px;
+  font-family: "Arita-dotum-Medium";
+  line-height: 1.6;
+  margin: 0%;
+}
+
+/* 헤더 스타일 */
+header {
+  font-family: "Arita-dotum-Medium";
+  background-color: #525252;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+/* 네비게이션 링크 */
+nav a {
+  color: #0c0c0d;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+nav li {
+  display: inline;
+}
+
+/* 섹션 배경 */
+section {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #dddddd;
+}
+
+footer {
+  background-color: rgb(145, 144, 145);
+  color: #454545;
+  font-size: 16px; /* 보통 4단위로 한다 */
+  text-align: center;
+  padding: 10px;
+}
