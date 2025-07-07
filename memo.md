@@ -82,3 +82,47 @@ HTML 요소 이름으로 스타일 지정
 요소의 특정 상태 지정
 
 `선택자:가상클래스 {...}`
+
+## flex-box
+
+`display: flex`
+
+- 자식 요소들을 플렉스 아이템으로 변환
+
+`justify-content`
+
+- 가로 정렬
+- 진행 방향
+- `flex-start` : 왼쪽 정렬
+- `center` : 가운데 정렬
+- `flex-end` : 오른쪽 정렬
+- `space-between`, `space-around`, `space-evenly` : 아이템 간격 분배
+
+`align-items`
+
+- 세로 정렬
+- 교차 방향
+- `flext-start`: 위쪽 정렬
+- `center`: 수직 중앙 정렬
+- `flex-end` : 아래쪽 정렬
+- `stretch` : 컨테이너 높이에 맞춰 늘리기
+
+## Grid
+
+`display: grid`
+
+- grid 컨테이너 선언
+
+`grid-template-columns`
+
+- 열 너비 정의
+- 열 너비 및 개수를 설정한다.
+
+`grid-template-rows`
+
+- 행 높이 정의
+
+`gap`
+
+- 행간, 열간 간격
+- 그리드 아이템 간의 간격을 지정한다.
